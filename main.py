@@ -18,11 +18,7 @@ def saliencyDetect(image):
 
 
 def main():
-    """
-    window_size = 2
-    k = 0.04
-    thresh = 10000000
-    """
+ 
     parser = argparse.ArgumentParser()
     parser.add_argument('path', type=str, help='Path to input image')
     parser.add_argument('--k', type=float, help='Value of constant "k" for Harris corner detection')
