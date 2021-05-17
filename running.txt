@@ -1,1 +1,1 @@
-python Abhilekh_Aditya_Ameesha_Group4 ./filepath/img.jpg --k 0.04 --window_size 2 --thresh 100000
+python main.py ./filepath/img.jpg --k 0.04 --window_size 2 --thresh 100000
